@@ -13,6 +13,6 @@ public class DmvSimulator {
             currNumber = (currNumber + 1) % 101;
         } while (currNumber != number);
 
-        System.out.println("Number " + currNumber + ", you are up next. \nYou IDIOT!!! You do not have the required paperwork. \nStop wasting our time and get out!");
+        System.out.println("Number " + currNumber + ", you are up next. \nYou IDIOT!!! You do not have the required paperwork. \nStop wasting our time and get out! BWAHHAHAHHH");
     }
 }
