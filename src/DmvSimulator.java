@@ -13,6 +13,12 @@ public class DmvSimulator {
             currNumber = (currNumber + 1) % 201;
         } while (currNumber != number);
 
-        System.out.println("Number " + currNumber + ", you are up next. \nYou IDIOT!!! You do not have the required paperwork. \nStop wasting our time and get out! BWAHHAHAHHH");
+        int miracle = (int) ((Math.random() * 100) + 1);
+        if (miracle == 100) {
+            System.out.println("Your paperwork is valid and up-to-date. Thank you, you are all set.");
+        }
+        else {
+            System.out.println("Number " + currNumber + ", you are up next. \nYou IDIOT!!! You do not have the required paperwork. \nStop wasting our time and get out! BWAHHAHAHHH");
+        }
     }
 }
